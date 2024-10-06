@@ -1,3 +1,11 @@
+//toggle aktif navbar
+function toggleMenu() {
+  const navItem = document.querySelector(".nav-navItem");
+  const hamburgerMenu = document.querySelector(".hamburger-menu");
+  navItem.classList.toggle("active");
+  hamburgerMenu.classList.toggle("active");
+}
+
 //animate css saat scroll
 function animateOnScroll(entries, observer) {
   entries.forEach((entry) => {
