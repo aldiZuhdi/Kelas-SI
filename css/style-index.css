@@ -41,6 +41,7 @@
     rgba(2, 0, 45, 1) 100%
   );
   padding-bottom: 100px;
+  min-height: 100vh;
 }
 
 /* Navbar */
